@@ -31,5 +31,5 @@ app.post("/", function (req, res) {
 });
 
 app.listen(process.env.PORT||port, function () {
-    console.log(`port is running and up on localhost:${port}`);
+    // console.log(`port is running and up on localhost:${port}`);
 });
